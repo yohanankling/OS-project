@@ -1,0 +1,19 @@
+the file description:
+server.c - server run by threads
+client.c - client code form https://beej.us/guide/bgnet/html/#a-simple-stream-server
+originalServer.c - original server code run by forks, taken from https://beej.us/guide/bgnet/html/#a-simple-stream-server
+
+so here is few steps to run the program :
+
+1: run the make file with command "make all"
+
+2: run server file by command "./server"
+
+3: run client file by command "./client 127.0.0.1"
+
+(that adress is for an example to ubuntu user, that represent the local ip)
+
+
+written by
+yohanan kling 316004555
+tzach hacker 315339069
